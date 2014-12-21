@@ -1,6 +1,9 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;
-; A Forth by Chris Hinsley
-;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; A Forth by Chris Hinsley
+;; nasm -f macho forth.nasm
+;; ld -o forth -e _main forth.o
+;; ./forth
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 	%define VERSION_NUM 30
 
