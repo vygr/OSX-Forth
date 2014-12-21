@@ -1272,6 +1272,9 @@ linebufs linesize - >linebuf !
 	drop
 ;
 
+\ yield to coroutine
+: yield r> r> swap >r >r ;
+
 \ implament quit that knows about exceptions
 : quit
 	r0 @ rsp!
