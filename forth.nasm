@@ -19,7 +19,7 @@
 	%define SYS_open 5
 	%define SYS_close 6
 	%define SYS_unlink 10
-	%define	SYS_mprotect 74
+	%define SYS_mprotect 74
 	%define SYS_fsync 95
 	%define SYS_rename 128
 	%define SYS_stat 188
